@@ -1,0 +1,35 @@
+[[syntax trees at end of                   cleanup]] // fn_closure.scala
+package <empty> {
+  object app extends Object {
+    def main(args: Array[String]): Unit = {
+      val l: List = immutable.this.List.apply(scala.this.Predef.wrapIntArray(Array[Int]{1, 2, 3}));
+      var i: runtime.IntRef = scala.runtime.IntRef.create(0);
+      l.foreach({
+        (new <$anon: Function1>(i): Function1)
+      });
+      scala.this.Predef.println("There are ".+(scala.Int.box(i.elem)).+(" elements in the list"))
+    };
+    def <init>(): app.type = {
+      app.super.<init>();
+      ()
+    }
+  };
+  @SerialVersionUID(0) final <synthetic> class anonfun$main$1 extends scala.runtime.AbstractFunction1$mcVI$sp with Serializable {
+    final def apply(a: Int): Unit = anonfun$main$1.this.apply$mcVI$sp(a);
+    <specialized> def apply$mcVI$sp(a: Int): Unit = {
+      scala.this.Predef.println(anonfun$main$1.this.i$1.elem.+(": ").+(scala.Int.box(a)));
+      anonfun$main$1.this.i$1.elem = anonfun$main$1.this.i$1.elem.+(1)
+    };
+    final <bridge> <artifact> def apply(v1: Object): Object = {
+      anonfun$main$1.this.apply(scala.Int.unbox(v1));
+      scala.runtime.BoxedUnit.UNIT
+    };
+    <synthetic> <paramaccessor> private[this] val i$1: runtime.IntRef = _;
+    def <init>(i$1: runtime.IntRef): <$anon: Function1> = {
+      anonfun$main$1.this.i$1 = i$1;
+      anonfun$main$1.super.<init>();
+      ()
+    }
+  }
+}
+

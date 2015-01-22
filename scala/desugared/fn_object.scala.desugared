@@ -1,0 +1,12 @@
+[[syntax trees at end of                   cleanup]] // fn_asobject.scala
+package <empty> {
+  object fntest extends Object {
+    def twice(x: Int): Int = x.*(2);
+    def main(args: Array[String]): Unit = scala.this.Predef.println(scala.Int.box(fntest.this.twice(3)));
+    def <init>(): fntest.type = {
+      fntest.super.<init>();
+      ()
+    }
+  }
+}
+

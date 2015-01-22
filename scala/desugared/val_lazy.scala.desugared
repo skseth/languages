@@ -1,0 +1,54 @@
+[[syntax trees at end of                   cleanup]] // val_lazy.scala
+package <empty> {
+  object lazytest extends Object {
+    def <init>(): lazytest.type = {
+      lazytest.super.<init>();
+      new lazytest$X();
+      new lazytest$Y();
+      ()
+    }
+  };
+  class lazytest$X extends Object {
+    private[this] val x: Int = _;
+    <stable> <accessor> def x(): Int = lazytest$X.this.x;
+    def <init>(): lazytest$X = {
+      lazytest$X.super.<init>();
+      lazytest$X.this.x = {
+        java.this.lang.Thread.sleep(2000L);
+        15
+      };
+      ()
+    }
+  };
+  class lazytest$Y extends Object {
+    @volatile private[this] var bitmap$0: Boolean = false;
+    private def y$lzycompute(): Int = {
+      {
+        lazytest$Y.this.synchronized({
+          if (lazytest$Y.this.bitmap$0.unary_!())
+            {
+              lazytest$Y.this.y = {
+                java.this.lang.Thread.sleep(2000L);
+                13
+              };
+              lazytest$Y.this.bitmap$0 = true;
+              ()
+            };
+          scala.runtime.BoxedUnit.UNIT
+        });
+        ()
+      };
+      lazytest$Y.this.y
+    };
+    lazy private[this] var y: Int = _;
+    <stable> <accessor> lazy def y(): Int = if (lazytest$Y.this.bitmap$0.unary_!())
+      lazytest$Y.this.y$lzycompute()
+    else
+      lazytest$Y.this.y;
+    def <init>(): lazytest$Y = {
+      lazytest$Y.super.<init>();
+      ()
+    }
+  }
+}
+

@@ -1,0 +1,91 @@
+[[syntax trees at end of                   cleanup]] // fn_bynameparam.scala
+package <empty> {
+  object bynametest extends Object {
+    def nano(): Long = {
+      scala.this.Predef.println("Getting nano");
+      java.this.lang.System.nanoTime()
+    };
+
+
+    def delayed(t: Function0): Long = {
+      scala.this.Predef.println("\n-----\nIn delayed method");
+      scala.this.Predef.println("Param: ".+(scala.Long.box(t.apply$mcJ$sp())));
+      t.apply$mcJ$sp()
+    };
+
+
+    def delayedOnce(t: Function0): Long = {
+      lazy <artifact> var tonce$lzy: runtime.LongRef = scala.runtime.LongRef.zero();
+      @volatile var bitmap$0: runtime.VolatileByteRef = scala.runtime.VolatileByteRef.create(0);
+      scala.this.Predef.println("\n------\nIn delayedOnce method");
+      scala.this.Predef.println("Param: ".+(scala.Long.box(bynametest.this.tonce$1(t, tonce$lzy, bitmap$0))));
+      bynametest.this.tonce$1(t, tonce$lzy, bitmap$0)
+    };
+
+
+    def main(args: Array[String]): Unit = {
+      scala.this.Predef.println(scala.Long.box(bynametest.this.delayed({
+        (new <$anon: Function0>(): Function0)
+      })));
+      scala.this.Predef.println(scala.Long.box(bynametest.this.delayedOnce({
+        (new <$anon: Function0>(): Function0)
+      })));
+      scala.this.Predef.println(scala.Long.box(bynametest.this.delayed({
+        (new <$anon: Function0>(): Function0)
+      })))
+    };
+
+    
+    final <stable> private[this] def tonce$lzycompute$1(t$1: Function0, tonce$lzy$1: runtime.LongRef, bitmap$0$1: runtime.VolatileByteRef): Long = {
+      {
+        bynametest.this.synchronized({
+          if (bitmap$0$1.elem.&(1).$asInstanceOf[Byte]().==(0))
+            {
+              tonce$lzy$1.elem = t$1.apply$mcJ$sp();
+              bitmap$0$1.elem = bitmap$0$1.elem.|(1).$asInstanceOf[Byte]();
+              ()
+            };
+          scala.runtime.BoxedUnit.UNIT
+        });
+        ()
+      };
+      tonce$lzy$1.elem
+    };
+    final <stable> private[this] def tonce$1(t$1: Function0, tonce$lzy$1: runtime.LongRef, bitmap$0$1: runtime.VolatileByteRef): Long = if (bitmap$0$1.elem.&(1).$asInstanceOf[Byte]().==(0))
+      bynametest.this.tonce$lzycompute$1(t$1, tonce$lzy$1, bitmap$0$1)
+    else
+      tonce$lzy$1.elem;
+    def <init>(): bynametest.type = {
+      bynametest.super.<init>();
+      ()
+    }
+  };
+  @SerialVersionUID(0) final <synthetic> class anonfun$main$1 extends scala.runtime.AbstractFunction0$mcJ$sp with Serializable {
+    final def apply(): Long = anonfun$main$1.this.apply$mcJ$sp();
+    <specialized> def apply$mcJ$sp(): Long = bynametest.this.nano();
+    final <bridge> <artifact> def apply(): Object = scala.Long.box(anonfun$main$1.this.apply());
+    def <init>(): <$anon: Function0> = {
+      anonfun$main$1.super.<init>();
+      ()
+    }
+  };
+  @SerialVersionUID(0) final <synthetic> class anonfun$main$2 extends scala.runtime.AbstractFunction0$mcJ$sp with Serializable {
+    final def apply(): Long = anonfun$main$2.this.apply$mcJ$sp();
+    <specialized> def apply$mcJ$sp(): Long = bynametest.this.nano();
+    final <bridge> <artifact> def apply(): Object = scala.Long.box(anonfun$main$2.this.apply());
+    def <init>(): <$anon: Function0> = {
+      anonfun$main$2.super.<init>();
+      ()
+    }
+  };
+  @SerialVersionUID(0) final <synthetic> class anonfun$main$3 extends scala.runtime.AbstractFunction0$mcJ$sp with Serializable {
+    final def apply(): Long = anonfun$main$3.this.apply$mcJ$sp();
+    <specialized> def apply$mcJ$sp(): Long = 4L;
+    final <bridge> <artifact> def apply(): Object = scala.Long.box(anonfun$main$3.this.apply());
+    def <init>(): <$anon: Function0> = {
+      anonfun$main$3.super.<init>();
+      ()
+    }
+  }
+}
+

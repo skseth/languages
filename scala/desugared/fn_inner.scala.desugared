@@ -1,0 +1,56 @@
+[[syntax trees at end of                   cleanup]] // fn_inner.scala
+package <empty> {
+  object fninner extends Object {
+    def sumDoubles(n: Int): Int = if (n.>(0))
+      fninner.this.dbl$1(n).+(fninner.this.sumDoubles(n.-(1)))
+    else
+      0;
+    def foo(n: Int): Int = if (n.>(0))
+      fninner.this.dbl$2(n, n).+(fninner.this.foo(n.-(1)))
+    else
+      0;
+    def bar(_n: Int): Int = {
+      var n: runtime.IntRef = scala.runtime.IntRef.create(_n);
+      if (n.elem.>(0))
+        {
+          fninner.this.subtract$1(n);
+          n.elem
+        }
+      else
+        0
+    };
+    def sumWithFunction(n: Int, f: Function1): Int = if (n.>(0))
+      f.apply$mcII$sp(n).+(fninner.this.sumWithFunction(n.-(1), f))
+    else
+      0;
+    def sumDoubles2(n: Int): Int = fninner.this.sumWithFunction(n, {
+      {
+        (new <$anon: Function1>(): Function1)
+      }
+    });
+    def main(args: Array[String]): Unit = {
+      scala.this.Predef.println(scala.Int.box(fninner.this.sumDoubles(2)));
+      scala.this.Predef.println(scala.Int.box(fninner.this.foo(2)));
+      scala.this.Predef.println(scala.Int.box(fninner.this.bar(2)));
+      scala.this.Predef.println(scala.Int.box(fninner.this.sumDoubles2(2)))
+    };
+    final private[this] def dbl$1(a: Int): Int = 2.*(a);
+    final private[this] def dbl$2(a: Int, n$1: Int): Int = a.*(n$1);
+    final private[this] def subtract$1(n$2: runtime.IntRef): Unit = n$2.elem = n$2.elem.-(1);
+    final def dbl$3(a: Int): Int = 2.*(a);
+    def <init>(): fninner.type = {
+      fninner.super.<init>();
+      ()
+    }
+  };
+  @SerialVersionUID(0) final <synthetic> class anonfun$sumDoubles2$1 extends scala.runtime.AbstractFunction1$mcII$sp with Serializable {
+    final def apply(a: Int): Int = anonfun$sumDoubles2$1.this.apply$mcII$sp(a);
+    <specialized> def apply$mcII$sp(a: Int): Int = fninner.dbl$3(a);
+    final <bridge> <artifact> def apply(v1: Object): Object = scala.Int.box(anonfun$sumDoubles2$1.this.apply(scala.Int.unbox(v1)));
+    def <init>(): <$anon: Function1> = {
+      anonfun$sumDoubles2$1.super.<init>();
+      ()
+    }
+  }
+}
+

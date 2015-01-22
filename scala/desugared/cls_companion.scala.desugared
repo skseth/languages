@@ -1,0 +1,38 @@
+[[syntax trees at end of                   cleanup]] // cls_companion.scala
+package <empty> {
+  object app extends Object {
+    def main(args: Array[String]): Unit = {
+      val x: app$myobj$MyClass = app$myobj$MyClass.apply("/foo/bar");
+      x.printPath()
+    };
+    def <init>(): app.type = {
+      app.super.<init>();
+      ()
+    }
+  };
+  object app$myobj extends Object {
+    def <init>(): app$myobj.type = {
+      app$myobj.super.<init>();
+      ()
+    }
+  };
+  class app$myobj$MyClass extends Object {
+    <paramaccessor> private[this] val path: String = _;
+    <stable> <accessor> <paramaccessor> def path(): String = app$myobj$MyClass.this.path;
+    def printPath(): Unit = scala.this.Predef.println(app$myobj$MyClass.this.path());
+    final def <init>(path: String): app$myobj$MyClass = {
+      app$myobj$MyClass.this.path = path;
+      app$myobj$MyClass.super.<init>();
+      ()
+    }
+  };
+  object app$myobj$MyClass extends Object {
+    def normalizePath(path: String): String = "normalized: ".+(path);
+    def apply(path: String): app$myobj$MyClass = new app$myobj$MyClass(app$myobj$MyClass.this.normalizePath(path));
+    def <init>(): app$myobj$MyClass.type = {
+      app$myobj$MyClass.super.<init>();
+      ()
+    }
+  }
+}
+

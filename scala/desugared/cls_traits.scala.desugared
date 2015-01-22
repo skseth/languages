@@ -1,0 +1,21 @@
+[[syntax trees at end of                   cleanup]] // cls_traits.scala
+package <empty> {
+  object traittest extends Object {
+    def main(args: Array[String]): Unit = scala.this.Predef.println(scala.Int.box(new traittest$SimpleClass().traitFunc(2)));
+    def <init>(): traittest.type = {
+      traittest.super.<init>();
+      ()
+    }
+  };
+  abstract trait traittest$SimpleTrait extends Object {
+    def traitFunc(x: Int): Int
+  };
+  class traittest$SimpleClass extends Object with traittest$SimpleTrait {
+    def traitFunc(x: Int): Int = x.*(2);
+    def <init>(): traittest$SimpleClass = {
+      traittest$SimpleClass.super.<init>();
+      ()
+    }
+  }
+}
+
