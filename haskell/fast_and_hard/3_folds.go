@@ -57,19 +57,13 @@ func lazyint(x int) intfunc {
 func lazysum(x intfunc, y intfunc) intfunc {
 	iscalculated := false
 	retval := 0
-	//xval := x()
-	//yval := y()
 	return func() int {
 		if !iscalculated {
 			nestlevel++
 			print("(")
 			xval := x()
-			//			print("_")
-			//			print(xval)
 			print(",")
 			yval := y()
-			//			print("_")
-			//			print(yval)
 			print(")")
 			retval = xval + yval
 			print("=")
@@ -96,6 +90,4 @@ func main() {
 	foldr(lazyint(0), lazysum, vals)()
 	foldl(lazyint(0), lazysum, vals)()
 	foldls(lazyint(0), lazysum, vals)()
-	//fmt.Println(foldr(lazyint(0), lazysum, vals)())
-	//fmt.Println(foldls(lazyint(0), lazysum, vals)())
 }

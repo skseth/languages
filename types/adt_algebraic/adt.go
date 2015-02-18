@@ -44,6 +44,7 @@ func (b *Branch) IsNil() bool {
 	return false
 }
 
+// Int Nodes
 type IntValue struct {
 	Value int
 }

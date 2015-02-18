@@ -1,1 +1,0 @@
-mastermethod.md

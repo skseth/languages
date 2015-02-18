@@ -47,6 +47,9 @@
 
 * Generics
   * [Generics in Java by Gilad Bracha](http://docs.oracle.com/javase/tutorial/extra/generics/intro.html)
+  * [Type Parametric functions in go](http://blog.burntsushi.net/type-parametric-functions-golang)
+  * [Laws of Reflection](http://blog.golang.org/laws-of-reflection)
+  * [Pros and Cons of Generics](https://docs.google.com/document/d/1vrAy9gMpMoS3uaVphB32uVXX4pi-HnNjkMEgyAHX4N4/edit?pli=1#heading=h.vuko0u3txoew)
 
 * Algebraic Data Types
   * [Stack Overflow - Typeclass vs ADT](http://stackoverflow.com/questions/19081904/scala-difference-between-a-typeclass-and-an-adt)
@@ -89,11 +92,14 @@
 
 * Type Conversions
   - [Implicit Conversions and Parameters - Scala](http://www.artima.com/pins1ed/implicit-conversions-and-parameters.html)
+  - [Boxing, Specialization](http://www.scala-notes.org/2011/04/specializing-for-primitive-types/)
 
 * Reflection
   * [Practical Type Mining in Scala](http://www.slideshare.net/prasinous/scaladays-2013-final)
   * [Typetags in Scala](http://stackoverflow.com/questions/12218641/scala-what-is-a-typetag-and-how-do-i-use-it)
 
+* Macros
+  - [Ordering Case Classes](http://meta.plasm.us/posts/2013/10/13/ordering-case-classes/)
 
 * Patterns
   * Adapter pattern
@@ -149,6 +155,11 @@
   * [Overview of Scala Collections Library](http://docs.scala-lang.org/overviews/collections/overview.html)
   * [Complexity of Scala Collections?](http://stackoverflow.com/questions/1722726/is-the-scala-2-8-collections-library-a-case-of-the-longest-suicide-note-in-hist)
   * [Architecture of Scala Collections Library](http://docs.scala-lang.org/overviews/core/architecture-of-scala-collections.html)
+  * [Map, FlatMap in Scala](http://www.brunton-spall.co.uk/post/2011/12/02/map-map-and-flatmap-in-scala/)
+  * [Good explanation of for](http://stackoverflow.com/questions/14598990/confused-with-the-for-comprehension-to-flatmap-map-transformation)
+
+* Notes
+  - List, Traversable, Iterable, Seq, IndexedSeq, Iterator, Stream, Vector, StringBuilder, and Range are aliased and available via scala.__
 
 * Haskell 
   * [Foldr Foldl Foldl`](https://www.haskell.org/haskellwiki/Foldr_Foldl_Foldl%27)
@@ -165,6 +176,7 @@
 #Functions
 * partial vs total functions 
   * [Avoiding Partial Functions](https://www.haskell.org/haskellwiki/Avoiding_partial_functions)
+  * [Partial Functions in Scala](https://twitter.github.io/scala_school/pattern-matching-and-functional-composition.html)
 * tail recursion
   * [recursion and tailcalls in go](http://www.goinggo.net/2013/09/recursion-and-tail-calls-in-go_26.html)
 * currying
@@ -228,41 +240,10 @@ dontgohere
 ----------
 https://www.haskell.org/haskellwiki/What_a_Monad_is_not
 http://stackoverflow.com/questions/17002119/haskell-pre-monadic-i-o
+[Category Theory](http://yogsototh.github.io/Category-Theory-Presentation/)
 
 
 #Courses
-
-* [Coursera Programming Languages](https://www.coursera.org/course/proglang)
-Syntax vs. semantics vs. idioms vs. libraries vs. tools
-ML basics (bindings, conditionals, records, functions)
-Recursive functions and recursive types
-Benefits of no mutation
-Algebraic datatypes, pattern matching
-Tail recursion
-First-class functions and function closures
-Lexical scope
-Currying
-Syntactic sugar
-Equivalence and effects
-Parametric polymorphism and container types
-Type inference
-Abstract types and modules
-Racket basics
-Dynamic vs. static typing
-Laziness, streams, and memoization
-Implementing languages, especially higher-order functions
-Macros
-Eval
-Ruby basics
-Object-oriented programming is dynamic dispatch
-Pure object-orientation
-Implementing dynamic dispatch
-Multiple inheritance, interfaces, and mixins
-OOP vs. functional decomposition and extensibility
-Subtyping for records, functions, and objects
-Subtyping
-Class-based subtyping
-Subtyping vs. parametric polymorphism; bounded polymorphism
 
 [WAT](https://www.destroyallsoftware.com/talks/wat)
 
