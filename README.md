@@ -21,7 +21,7 @@ http://courses.cs.washington.edu/courses/cse341/14sp/
 * [On Understanding Types, Data Abstraction, Polymorphism](http://lucacardelli.name/Papers/OnUnderstanding.A4.pdf) Great explanation of Universal, Existential and Bounded Quantification of types.
 * [How to make ad-hoc Polymorphism less ad-hoc](http://people.csail.mit.edu/dnj/teaching/6898/papers/wadler88.pdf) : Explanation of type classes in Haskell
 * [F-Bounded Polymorphism for Object-Oriented Programming](http://staff.ustc.edu.cn/~xyfeng/teaching/FOPL/lectureNotes/CookFBound89.pdf)
-* [A statically Safe Alternative to Virtual Types](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.18.3290&rep=rep1&type=pdf) - explains use of ThisType 
+* [A statically Safe Alternative to Virtual Types](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.18.3290&rep=rep1&type=pdf) - explains use of ThisType
 * [Pizza into Java - Translating Theory into Practice](http://pizzacompiler.sourceforge.net/doc/pizza-language-spec.pdf) - explains addition of parametric polymorphism, higher-order functions and algebraic data types to Java
 * [Principal Type Schemes for Functional Programs](http://web.cs.wpi.edu/~cs4536/c12/milner-damas_principal_types.pdf)
 * [Object Oriented Type Systems](http://www.cs.ucla.edu/~palsberg/paper/oopsla91.pdf)
@@ -37,18 +37,22 @@ http://courses.cs.washington.edu/courses/cse341/14sp/
 * [More points for lazy evaluation](http://augustss.blogspot.in/2011/05/more-points-for-lazy-evaluation-in.html)
 * [Why functional programming matters](http://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
 * [Denotational Semantics](http://cgi.csc.liv.ac.uk/~grant/Teaching/COMP317/densem.pdf)
-
+* [Growing a language](http://cs.au.dk/~hosc/local/HOSC-12-3-pp221-236.pdf) - Steele
+* [Design principles behind Smalltalk](http://www.cs.virginia.edu/~evans/cs655/readings/smalltalk.html) - Ingalls
 #Books
-* SICP 
+* SICP
 * An Introduction to Functional Programming Through Lambda Calculus
 * Game Programming Patterns - Robert Nystrom
 * [Practical Foundations of Programming Languages](http://www.cs.cmu.edu/~rwh/plbook/book.pdf)
 * [Type theory and Functional Programming](https://ipaper.googlecode.com/files/Type-Theory-Functional-Programming.pdf)
 * [CSP Book](http://www.usingcsp.com/cspbook.pdf)
 * [Foundations for Programming Languages](http://www.lix.polytechnique.fr/~catuscia/teaching/cg520/papers_and_books/Mitchell_book.ps.gz)
+* Basic Category Theory for Computer Scientists
+* Introduction to the Theory of Computation
+* Lambda-Calculus and Combinators: An Introduction
 
 #Historical
-* [Fundamental Concepts in Programming Languages](http://www.cs.cmu.edu/~crary/819-f09/Strachey67.pdf) 
+* [Fundamental Concepts in Programming Languages](http://www.cs.cmu.edu/~crary/819-f09/Strachey67.pdf)
 * [Types, abstraction and parametric Polymorphism](http://www.cs.cmu.edu/~crary/819-f09/Reynolds83.pdf)
 * [Towards a theory of type structure](http://www.cs.cmu.edu/~crary/819-f09/Reynolds74.pdf)
 * [Communicating Sequential Processes](http://www.cs.cmu.edu/~crary/819-f09/Hoare78.pdf)
@@ -80,7 +84,6 @@ http://courses.cs.washington.edu/courses/cse341/14sp/
 
 #General Interest
 * [Confessions of a used programming language Salesman](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.118.2025&rep=rep1&type=pdf) - explains why VB is functional!
-
 * [Monads are Elephants](http://james-iry.blogspot.in/2007/09/monads-are-elephants-part-1.html)
 * http://siek.blogspot.in/2012/07/crash-course-on-notation-in-programming.html
 * [An introduction to lattices and order](https://books.google.co.in/books?id=vVVTxeuiyvQC&pg=PR11&lpg=PR11&dq=dana+scott+lattice+structure&source=bl&ots=5t-cYqhneP&sig=8PDL-7ihWwt4p1e5cFkUDf2P6Oc&hl=en&sa=X&ei=rXv-VJPZDtLmuQSg4YHoBQ&ved=0CBwQ6AEwADge#v=onepage&q=dana%20scott%20lattice%20structure&f=false)
@@ -89,6 +92,14 @@ http://courses.cs.washington.edu/courses/cse341/14sp/
 * http://matt.might.net/articles/best-programming-languages/
 * http://matt.might.net/articles/books-papers-materials-for-graduate-students/#pl
 * http://www.cis.upenn.edu/~sweirich/newtypes.pdf
+* [History of Lambda-Calculus and Combinatory Logic](http://www.users.waitrose.com/~hindley/SomePapers_PDFs/2006CarHin,HistlamRp.pdf)
+* [Mirage OS](http://openmirage.org/)
+  * [Mirage paper](http://anil.recoil.org/papers/2013-asplos-mirage.pdf)
+
+#Software Desing
+
+* David Ungar, Craig Chambers, Bay-wei Chang, and Urs Hölzle [Organizing Programs Without Classes](http://cs.au.dk/~hosc/local/LaSC-4-3-pp223-242.pdf)
+* Ben Moseley and Peter Marks [Out of the Tar Pit](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.93.8928)
 
 ##General Learning Resources
 
@@ -108,6 +119,7 @@ http://courses.cs.washington.edu/courses/cse341/14sp/
   * [Laziness in Haskell](http://en.wikibooks.org/wiki/Haskell/Laziness)
   * [Real World Haskell](http://en.wikibooks.org/wiki/Haskell/List_processing#foldl)
   * [Programming in Haskell](http://www.cs.nott.ac.uk/~gmh/book.html)
+  * [Haskell Implementation Reading list](http://www.stephendiehl.com/posts/essential_compilers.html)
 
 * Rust
   * [Rust for Functional Programmers](http://science.raphael.poss.name/rust-for-functional-programmers.html)
@@ -118,7 +130,7 @@ http://courses.cs.washington.edu/courses/cse341/14sp/
 * Scala
   * [Effective Scala](http://twitter.github.io/effectivescala/)
   * [Scala School](http://twitter.github.io/scala_school/)
-  * [Scala School - Advanced Types](https://twitter.github.io/scala_school/advanced-types.html) 
+  * [Scala School - Advanced Types](https://twitter.github.io/scala_school/advanced-types.html)
 
 * Racket
   * [PLAI](http://cs.brown.edu/courses/cs173/2012/book/book.pdf)
@@ -132,7 +144,11 @@ http://courses.cs.washington.edu/courses/cse341/14sp/
 * Advanced / General
   * [Functional Programming with Bananas, Lenses, Envelopes and Barbed Wire](http://eprints.eemcs.utwente.nl/7281/01/db-utwente-40501F46.pdf)
   * [On Cruelty of Really Teaching Computer Science](http://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html)
-* http://roscidus.com/blog/blog/2014/02/13/ocaml-what-you-gain/
+  * http://roscidus.com/blog/blog/2014/02/13/ocaml-what-you-gain/
+
+* ML
+  * [Modern eye on ML type inference](http://cristal.inria.fr/~fpottier/publis/fpottier-appsem-2005.pdf)
+
 ##Types
 * http://blogs.perl.org/users/ovid/2010/08/what-to-know-before-debating-type-systems.html
 
@@ -148,7 +164,7 @@ http://courses.cs.washington.edu/courses/cse341/14sp/
   * [Type Parametric functions in go](http://blog.burntsushi.net/type-parametric-functions-golang)
   * [Laws of Reflection](http://blog.golang.org/laws-of-reflection)
   * [Pros and Cons of Generics](https://docs.google.com/document/d/1vrAy9gMpMoS3uaVphB32uVXX4pi-HnNjkMEgyAHX4N4/edit?pli=1#heading=h.vuko0u3txoew)
-  
+
   * [Comprehending Monads](http://ncatlab.org/nlab/files/WadlerMonads.pdf)
   * [Safe alternative to Virtual Types](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.18.3290&rep=rep1&type=pdf)
 
@@ -225,7 +241,7 @@ http://courses.cs.washington.edu/courses/cse341/14sp/
   * reified generics
   * formal type parameters
   * type bounds
-  * variance 
+  * variance
   * self type annotations
   * access modifiers [private this](http://stackoverflow.com/questions/9698677/privatethis-vs-private)
   * type polymorphism
@@ -265,11 +281,11 @@ http://courses.cs.washington.edu/courses/cse341/14sp/
 * Notes
   - List, Traversable, Iterable, Seq, IndexedSeq, Iterator, Stream, Vector, StringBuilder, and Range are aliased and available via scala.__
 
-* Haskell 
+* Haskell
   * [Foldr Foldl Foldl`](https://www.haskell.org/haskellwiki/Foldr_Foldl_Foldl%27)
   * [List Processing](http://en.wikibooks.org/wiki/Haskell/List_processing#foldl)
 
-* functional combinators 
+* functional combinators
   * map
   * foreach
   * filter
@@ -283,14 +299,14 @@ http://courses.cs.washington.edu/courses/cse341/14sp/
   - [Monadic Parsing in Haskell](http://www.cs.nott.ac.uk/~gmh/pearl.pdf)
 
 #Functions
-* partial vs total functions 
+* partial vs total functions
   * [Avoiding Partial Functions](https://www.haskell.org/haskellwiki/Avoiding_partial_functions)
   * [Partial Functions in Scala](https://twitter.github.io/scala_school/pattern-matching-and-functional-composition.html)
 * tail recursion
   * [recursion and tailcalls in go](http://www.goinggo.net/2013/09/recursion-and-tail-calls-in-go_26.html)
 * currying
 * lambdas
-* closures / anonymous, boxed, unboxed 
+* closures / anonymous, boxed, unboxed
 * parametrically overloaded functions
 * multi-methods / dynamic dispatch
 
@@ -404,6 +420,8 @@ http://stackoverflow.com/questions/17002119/haskell-pre-monadic-i-o
 
 * Jr. Guy Lewis Steele. [RABBIT: A compiler for SCHEME](http://www.cs.berkeley.edu/~fateman/264/papers/rabbit-474short.pdf). Technical Report AITR-474, MIT Artificial Intelligence Laboratory, May 6 1978.
 
+* Leslie Lamport. [Time, Clocks, and the Ordering of Events in a Distributed System](http://research.microsoft.com/en-us/um/people/lamport/pubs/time-clocks.pdf)
+
 #A great many great works (mentioned at least once):
 
 * C. Boehm and G. Jacopini. [Flow diagrams, Turing machines, and languages with only two formation rules](http://www.cs.unibo.it/~martini/PP/bohm-jac.pdf). Communications of the ACM, 9(5):366-371, 1966.
@@ -412,7 +430,7 @@ http://stackoverflow.com/questions/17002119/haskell-pre-monadic-i-o
 
 * Alonzo Church. [The Calculi of Lambda Conversion](https://www.classes.cs.uchicago.edu/archive/2007/spring/32001-1/papers/church-1940.pdf). Princeton University Press, 1941. See also [this](http://ryanflannery.net/research/logic-notes/Church-CalculiOfLambdaConversion.pdf).
 
-* Haskell B. Curry and Robert Feys. [Combinatory Logic, volume 1](http://sistemas.fciencias.unam.mx/~lokylog/images/stories/Alexandria/Studies%20in%20Logic%20and%20the%20Foundations%20of%20Mathematics/%5BSLFM%20022%5D%20Combinatory%20Logic.%20Vol.1%20-%20Curry,%20Feys,%20Craig%20%5BStudies%20in%20Logic%20and%20the%20Foundations%20of%20Mathematics%5D%20%28NH%201958%29%28T%29.pdf). North Holland, 1958. Second edition, 1968. 
+* Haskell B. Curry and Robert Feys. [Combinatory Logic, volume 1](http://sistemas.fciencias.unam.mx/~lokylog/images/stories/Alexandria/Studies%20in%20Logic%20and%20the%20Foundations%20of%20Mathematics/%5BSLFM%20022%5D%20Combinatory%20Logic.%20Vol.1%20-%20Curry,%20Feys,%20Craig%20%5BStudies%20in%20Logic%20and%20the%20Foundations%20of%20Mathematics%5D%20%28NH%201958%29%28T%29.pdf). North Holland, 1958. Second edition, 1968.
 
 * O. J. Dahl and K. Nygaard. [SIMULA-An ALGOL-based simulation language](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.95.384&rep=rep1&type=pdf). Communications of the ACM, 9(9):671-678, September 1966.
 
@@ -469,4 +487,9 @@ N. Wirth. [The programming language Pascal (revised report)](http://www.standard
 * Niklaus Wirth and C. A. R. Hoare. A contribution to the development of ALGOL. Communications of the ACM, 9(6):413-432, June 1966.
 
 * Andrew K. Wright and Matthias Felleisen. [A syntactic approach to type soundness](http://ecee.colorado.edu/ecen5533/fall11/reading/wright-syntactic.pdf). Information and Computation, 115(1):38-94, November 1994.
+
+* Michael Ernst, Craig Kaplan, and Craig Chambers. [Predicate Dispatch: A Unified Theory of Dispatch](https://homes.cs.washington.edu/~mernst/pubs/dispatching-ecoop98.pdf)
+
+* Henry G. Baker [Equal Rights for Functional Objects or, The More Things Change, The More They Are the Same](https://trello-attachments.s3.amazonaws.com/4e725d98b896c5dde50e8053/4e7265331a03bf000023965c/DnQHxFkAJsTgCxE4/paper.pdf)
+
 [ bib ]
