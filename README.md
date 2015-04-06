@@ -1,5 +1,7 @@
 http://courses.cs.washington.edu/courses/cse341/13sp/
 http://courses.cs.washington.edu/courses/cse341/14sp/
+[Compiler Construction UWash](http://courses.cs.washington.edu/courses/csep501/09au/lectures/video.html)
+[Some list of Online course material](https://github.com/prakhar1989/awesome-courses/blob/master/README.md#programming-languages--compilers)
 
 [Types and Programming Languages - the next generation - 2003](http://www.cis.upenn.edu/~bcpierce/papers/tng-lics2003-slides.pdf)
 
@@ -50,6 +52,7 @@ http://courses.cs.washington.edu/courses/cse341/14sp/
 * Basic Category Theory for Computer Scientists
 * Introduction to the Theory of Computation
 * Lambda-Calculus and Combinators: An Introduction
+* Concepts, Techniques, and Models of Computer Programming - Van Roy, Seif Haridi
 
 #Historical
 * [Fundamental Concepts in Programming Languages](http://www.cs.cmu.edu/~crary/819-f09/Strachey67.pdf)
@@ -66,6 +69,8 @@ http://courses.cs.washington.edu/courses/cse341/14sp/
 * [Dataless Programming](http://www.rand.org/content/dam/rand/pubs/research_memoranda/2007/RM5290.pdf)
 * [Actor Model of Computation](http://arxiv.org/pdf/1008.1459v38.pdf)
 
+#Talks & Videos
+* [Programming talks](https://github.com/hellerve/programming-talks)
 
 #Learning Path
 
@@ -77,7 +82,7 @@ http://courses.cs.washington.edu/courses/cse341/14sp/
 * [Programming Languages - Brown University](http://cs.brown.edu/courses/cs173/2014/)
 * [Programming Languages - University of Washington](http://courses.cs.washington.edu/courses/cse341/14sp/) - Ruby, Racket, ML
 * Functional Programming with Scala - Book
-* Functional Data Structures - Osa
+* [Functional Data Structures](http://www.cs.cmu.edu/~rwh/theses/okasaki.pdf) - Okasaki
 
 #Theoretical Stuff
 * [Unfolding Recursive Definitions using the Y-Combinator](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=94891B3FB3C1C97B5DBD861A4CB5B39D?doi=10.1.1.116.5425&rep=rep1&type=pdf)
@@ -95,8 +100,10 @@ http://courses.cs.washington.edu/courses/cse341/14sp/
 * [History of Lambda-Calculus and Combinatory Logic](http://www.users.waitrose.com/~hindley/SomePapers_PDFs/2006CarHin,HistlamRp.pdf)
 * [Mirage OS](http://openmirage.org/)
   * [Mirage paper](http://anil.recoil.org/papers/2013-asplos-mirage.pdf)
+* [Interesting papers](https://github.com/papers-we-love/papers-we-love)
 
-#Software Desing
+
+##Software Design
 
 * David Ungar, Craig Chambers, Bay-wei Chang, and Urs Hölzle [Organizing Programs Without Classes](http://cs.au.dk/~hosc/local/LaSC-4-3-pp223-242.pdf)
 * Ben Moseley and Peter Marks [Out of the Tar Pit](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.93.8928)
