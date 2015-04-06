@@ -1,3 +1,22 @@
+http://courses.cs.washington.edu/courses/cse341/13sp/
+http://courses.cs.washington.edu/courses/cse341/14sp/
+
+[Types and Programming Languages - the next generation - 2003](http://www.cis.upenn.edu/~bcpierce/papers/tng-lics2003-slides.pdf)
+
+[Types a la Milner](http://www.cis.upenn.edu/~bcpierce/papers/TypesALaMilner.pdf)
+
+#Basics
+[Async Await](http://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html)
+[Task-Based Asynchronous Pattern]
+
+
+* [Namespaces - Lisp1 vs Lisp 2](http://www.nhplace.com/kent/Papers/Technical-Issues.html)
+
+#Advanced
+
+* [Macros that work together](http://www.cs.utah.edu/plt/publications/jfp12-draft-fcdf.pdf)
+
+
 #Languages
 * [On Understanding Types, Data Abstraction, Polymorphism](http://lucacardelli.name/Papers/OnUnderstanding.A4.pdf) Great explanation of Universal, Existential and Bounded Quantification of types.
 * [How to make ad-hoc Polymorphism less ad-hoc](http://people.csail.mit.edu/dnj/teaching/6898/papers/wadler88.pdf) : Explanation of type classes in Haskell
@@ -26,6 +45,7 @@
 * [Practical Foundations of Programming Languages](http://www.cs.cmu.edu/~rwh/plbook/book.pdf)
 * [Type theory and Functional Programming](https://ipaper.googlecode.com/files/Type-Theory-Functional-Programming.pdf)
 * [CSP Book](http://www.usingcsp.com/cspbook.pdf)
+* [Foundations for Programming Languages](http://www.lix.polytechnique.fr/~catuscia/teaching/cg520/papers_and_books/Mitchell_book.ps.gz)
 
 #Historical
 * [Fundamental Concepts in Programming Languages](http://www.cs.cmu.edu/~crary/819-f09/Strachey67.pdf) 
@@ -35,12 +55,19 @@
 * [The Next 700 Programming Languages](http://www.thecorememory.com/Next_700.pdf)
 * [Can Programming be Liberated from the Von Neumann Style](http://web.stanford.edu/class/cs242/readings/backus.pdf)
 * [A theory of type polymorphism in programming](https://courses.engr.illinois.edu/cs421/sp2013/project/milner-polymorphism.pdf)
+* [Using message passing instead of GOTO - Tail Recursion](http://dspace.mit.edu/bitstream/handle/1721.1/41998/AI_WP_164.pdf?sequence=1)
+* [Alan Kays - OOPS vs Messaging](http://c2.com/cgi/wiki?AlanKayOnMessaging)
+* [Alan Kays - Meaning of OOPS](http://userpage.fu-berlin.de/~ram/pub/pub_jf47ht81Ht/doc_kay_oop_en)
+* [Gedanken](http://www.softwarepreservation.org/projects/lang/GEDANKEN/Reynolds-GEDANKEN-ANL_7621-1969.pdf)
+* [Dataless Programming](http://www.rand.org/content/dam/rand/pubs/research_memoranda/2007/RM5290.pdf)
+* [Actor Model of Computation](http://arxiv.org/pdf/1008.1459v38.pdf)
+
 
 #Learning Path
 
 * [How to Design Programs](http://www.ccs.neu.edu/home/matthias/HtDP2e/part_one.html)
 * [Little Schemer](http://kysmykseka.net/koti/wizardry/Programming/Lisp/Scheme/The%20Little%20Schemer%204th%20Ed.pdf)
-* [Introduction to Haskell](http://www.andrew.cmu.edu/course/15-749/) and [Functional Systems in Haskell](http://www.scs.stanford.edu/14sp-cs240h/)
+* [Introduction to Haskell](http://www.seas.upenn.edu/~cis194/) and [Functional Systems in Haskell](http://www.scs.stanford.edu/14sp-cs240h/)
 * [SICP](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/index.htm) - Book and [Original videos](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/)
 * [Distributed Systems - MIT](http://css.csail.mit.edu/6.824/2014/index.html) and [Distributed Systems - CMU](http://www.cs.cmu.edu/~dga/15-440/F12/index.html) - distributed systems with golang. Also see [Readings on distributed systems](http://www.andrew.cmu.edu/course/15-749/)
 * [Programming Languages - Brown University](http://cs.brown.edu/courses/cs173/2014/)
@@ -61,6 +88,7 @@
 * [Advanced Module Systems](http://www.cis.upenn.edu/~bcpierce/courses/629/papers/Saraswat-javabug.html)
 * http://matt.might.net/articles/best-programming-languages/
 * http://matt.might.net/articles/books-papers-materials-for-graduate-students/#pl
+* http://www.cis.upenn.edu/~sweirich/newtypes.pdf
 
 ##General Learning Resources
 
@@ -98,10 +126,13 @@
 * C++
   * [TMP - What Does Haskell have to do with C++](http://bartoszmilewski.com/2009/10/21/what-does-haskell-have-to-do-with-c/)
 
+* Go
+  - [Research Problems in Implementing Go](http://talks.golang.org/2014/research.slide#1)
+
 * Advanced / General
   * [Functional Programming with Bananas, Lenses, Envelopes and Barbed Wire](http://eprints.eemcs.utwente.nl/7281/01/db-utwente-40501F46.pdf)
   * [On Cruelty of Really Teaching Computer Science](http://www.cs.utexas.edu/~EWD/transcriptions/EWD10xx/EWD1036.html)
-
+* http://roscidus.com/blog/blog/2014/02/13/ocaml-what-you-gain/
 ##Types
 * http://blogs.perl.org/users/ovid/2010/08/what-to-know-before-debating-type-systems.html
 
