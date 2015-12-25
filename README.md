@@ -2,19 +2,19 @@
 
 [Types a la Milner](http://www.cis.upenn.edu/~bcpierce/papers/TypesALaMilner.pdf)
 
-#Basics
+# Basics
 [Async Await](http://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html)
 [Task-Based Asynchronous Pattern]
 
 
 * [Namespaces - Lisp1 vs Lisp 2](http://www.nhplace.com/kent/Papers/Technical-Issues.html)
 
-#Advanced
+# Advanced
 
 * [Macros that work together](http://www.cs.utah.edu/plt/publications/jfp12-draft-fcdf.pdf)
 
 
-#Languages
+# Languages
 * [On Understanding Types, Data Abstraction, Polymorphism](http://lucacardelli.name/Papers/OnUnderstanding.A4.pdf) Great explanation of Universal, Existential and Bounded Quantification of types.
 * [How to make ad-hoc Polymorphism less ad-hoc](http://people.csail.mit.edu/dnj/teaching/6898/papers/wadler88.pdf) : Explanation of type classes in Haskell
 * [F-Bounded Polymorphism for Object-Oriented Programming](http://staff.ustc.edu.cn/~xyfeng/teaching/FOPL/lectureNotes/CookFBound89.pdf)
@@ -101,7 +101,7 @@
 
 ##Software Design
 
-* David Ungar, Craig Chambers, Bay-wei Chang, and Urs Hölzle [Organizing Programs Without Classes](http://cs.au.dk/~hosc/local/LaSC-4-3-pp223-242.pdf)
+* David Ungar, Craig Chambers, Bay-wei Chang, and Urs Hï¿½lzle [Organizing Programs Without Classes](http://cs.au.dk/~hosc/local/LaSC-4-3-pp223-242.pdf)
 * Ben Moseley and Peter Marks [Out of the Tar Pit](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.93.8928)
 
 ##General Learning Resources
